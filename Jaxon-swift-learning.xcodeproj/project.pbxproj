@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870AB7002302A0DF0050531D /* Optional Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB6FF2302A0DF0050531D /* Optional Link.swift */; };
+		870AB7022302A4E70050531D /* Mistake Dispose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB7012302A4E70050531D /* Mistake Dispose.swift */; };
+		870AB7042302AE100050531D /* MIxed Nested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB7032302AE100050531D /* MIxed Nested.swift */; };
+		870AB7062302B2580050531D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB7052302B2580050531D /* Extension.swift */; };
+		870AB7082302B44B0050531D /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870AB7072302B44B0050531D /* Protocol.swift */; };
 		8776179922F91D3B0018281B /* Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776179822F91D3B0018281B /* Subscript.swift */; };
 		8776179B22F92B350018281B /* Hritage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776179A22F92B350018281B /* Hritage.swift */; };
 		8776179D22F932930018281B /* Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776179C22F932930018281B /* Initialization.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		870AB6FF2302A0DF0050531D /* Optional Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional Link.swift"; sourceTree = "<group>"; };
+		870AB7012302A4E70050531D /* Mistake Dispose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mistake Dispose.swift"; sourceTree = "<group>"; };
+		870AB7032302AE100050531D /* MIxed Nested.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MIxed Nested.swift"; sourceTree = "<group>"; };
+		870AB7052302B2580050531D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		870AB7072302B44B0050531D /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		8776179822F91D3B0018281B /* Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscript.swift; sourceTree = "<group>"; };
 		8776179A22F92B350018281B /* Hritage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hritage.swift; sourceTree = "<group>"; };
 		8776179C22F932930018281B /* Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialization.swift; sourceTree = "<group>"; };
@@ -94,6 +104,11 @@
 				8776179822F91D3B0018281B /* Subscript.swift */,
 				8776179A22F92B350018281B /* Hritage.swift */,
 				8776179C22F932930018281B /* Initialization.swift */,
+				870AB6FF2302A0DF0050531D /* Optional Link.swift */,
+				870AB7012302A4E70050531D /* Mistake Dispose.swift */,
+				870AB7032302AE100050531D /* MIxed Nested.swift */,
+				870AB7052302B2580050531D /* Extension.swift */,
+				870AB7072302B44B0050531D /* Protocol.swift */,
 			);
 			path = "Jaxon-swift-learning";
 			sourceTree = "<group>";
@@ -159,11 +174,16 @@
 				87E49F4022F423DF00E4B034 /* ControlFlow.swift in Sources */,
 				8776179D22F932930018281B /* Initialization.swift in Sources */,
 				87E49F3E22F4238200E4B034 /* DataStructure.swift in Sources */,
+				870AB7022302A4E70050531D /* Mistake Dispose.swift in Sources */,
+				870AB7002302A0DF0050531D /* Optional Link.swift in Sources */,
 				87E49F3C22F4234E00E4B034 /* Foundation.swift in Sources */,
+				870AB7042302AE100050531D /* MIxed Nested.swift in Sources */,
 				87E5008A22F7C6500013E2F0 /* enumerate.swift in Sources */,
 				87E5009022F8383C0013E2F0 /* Approach.swift in Sources */,
+				870AB7062302B2580050531D /* Extension.swift in Sources */,
 				87E49F3A22F420D000E4B034 /* Function.swift in Sources */,
 				87E5008C22F7D9C50013E2F0 /* Structure and Class.swift in Sources */,
+				870AB7082302B44B0050531D /* Protocol.swift in Sources */,
 				8776179B22F92B350018281B /* Hritage.swift in Sources */,
 				8776179922F91D3B0018281B /* Subscript.swift in Sources */,
 				87E49F4222F438B800E4B034 /* Closure.swift in Sources */,

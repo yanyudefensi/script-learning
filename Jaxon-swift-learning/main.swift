@@ -574,8 +574,39 @@ let namedMeat = Initialization.Food(name: "Bacon")
 print("namedMeat's name is \(namedMeat.name)")
 // namedMeat's name is "Bacon"
 
-//let mysteryMeat = Initialization.Food()
-//print("mysteryMeat's name is \(mysteryMeat.name)")
+let mysteryMeat = Initialization.Food()
+print("mysteryMeat's name is \(mysteryMeat.name)")
 // mysteryMeat's name is "[Unnamed]"
 
+//Optional Link可选链接部分
+let john = Person()
 
+//因为person中residence没有设置值，强制解包会报错
+//let roomCount = john.residence!.numberOfRooms
+// this triggers a runtime error
+
+//应设置
+if let rommCount = john.residence?.numberOfRooms {
+    print("John's residence has \(rommCount) rooms")
+} else {
+    print("Unable to retrieve the number of rooms.")
+}
+
+
+//Mistake Dispose部分
+//使用do catch捕获错误
+var vendingMachine = VendingMachine()
+vendingMachine.coinsDeposited = 8
+do {
+    try vendingMachine.buyFavoriteSnack(person: "Alice", vendingMachine: vendingMachine)
+    print("Success! Yum.")
+} catch VendingMachineError.invalidSelection {
+    print("Invalid Selection.")
+} catch VendingMachineError.outOfStock {
+    print("Out of Stock.")
+} catch VendingMachineError.insufficientFunds(let coinsNeeded) {
+    print("Insufficient funds. Please insert an additional \(coinsNeeded) coins.")
+} catch {
+    print("Unexpected error: \(error).")
+}
+// Prints "Insufficient funds. Please insert an additional 2 coins."
